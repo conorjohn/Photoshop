@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>My First Directive</title>
+</head>
+<body ng-app="egghead" ng-controller="AppCtrl as app">
+	<div my-first-directive message=" Input your requested mortgage"></div>
+
+	<div ng-controller="FirstCtrl1">
+		<input type="text" ng-model="data.message">
+		<h1>{{data.message|reverse}}</h1>
+		<p>You are getting a mortage at 2.8% APR over the course of 48 months. Please see your monthly repayments above.</p>
+	</div>
+
+	<div ng-controller="jsonData">
+		<p class="username">Welcome, {{ user.details.username }}</p>
+		<p class="id">User ID: {{ user.details.id }} </p>
+
+	</div>
+	<a custom-button>Click Me</a>
+
+	<div importTemplate></div>
+
+	<script type="text/javascript" src="angular.js"></script>
+	<script type="text/javascript" src="egghead.js"></script>
+</body>
+</html>

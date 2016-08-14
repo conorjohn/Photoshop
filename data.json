@@ -1,0 +1,20 @@
+{
+	"users" : [{
+		"id": "12345",
+		"name": "Conor O'Reilly",
+		"email": "conorj92@gmail.com",
+		"country": "Ireland"
+		},
+		{
+			"id": "54321",
+			"name": "John Smith",
+			"email": "johnsmith@gmail.com",
+			"country": "England"
+		},
+		{
+			"id": "67890",
+			"name": "Jane Doe",
+			"email": "jdoe@gmail.com",
+			"country": "France"
+		}]
+}
